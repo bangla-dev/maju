@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mdmufazzul1315.github.io/maju-electrician/sitemap.xml
