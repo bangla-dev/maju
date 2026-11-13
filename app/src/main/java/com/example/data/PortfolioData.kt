@@ -16,6 +16,8 @@ object PortfolioData {
   const val WHATSAPP_URL = "https://wa.me/8801758663620"
   const val CALL_URI = "tel:+8801999234828"
   const val FACEBOOK_URL = "https://www.facebook.com/share/1cdgq2jxQt/"
+  const val PROFILE_IMAGE_URL = "https://xn--w5b9a8bn.xn--45bl4db.xn--54b7fta0cc/profile.png"
+  const val COVER_IMAGE_URL = "https://xn--w5b9a8bn.xn--45bl4db.xn--54b7fta0cc/cover.png"
 
   const val INTRO_TEXT = "আসসালামু আলাইকুম। আমি মাজু ইলেকট্রিশিয়ান। দীর্ঘ ৮ বছরের বেশি সময় ধরে বাসাবাড়ির বৈদ্যুতিক ওয়্যারিং, নতুন বাড়ির বৈদ্যুতিক সংযোগ, সুইচ-সকেট ও লাইট-ফ্যান ফিটিং, বাথরুমের স্যানিটারি কাজ এবং পানির মোটর স্থাপনের কাজ করে আসছি। আমি ত্রিশাল, ময়মনসিংহ এবং প্রয়োজন অনুযায়ী ময়মনসিংহ জেলার বিভিন্ন এলাকায় সেবা দিয়ে থাকি।"
 

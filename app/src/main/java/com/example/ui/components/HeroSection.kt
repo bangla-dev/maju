@@ -1,6 +1,5 @@
 package com.example.ui.components
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -49,6 +48,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import coil.compose.AsyncImage
 import com.example.R
 import com.example.data.PortfolioData
 import com.example.ui.theme.ElectricYellow
@@ -78,8 +78,10 @@ fun HeroSection(
         .fillMaxWidth()
         .aspectRatio(16f / 7f)
     ) {
-      Image(
-        painter = painterResource(id = R.drawable.img_cover),
+      AsyncImage(
+        model = PortfolioData.COVER_IMAGE_URL,
+        placeholder = painterResource(id = R.drawable.img_cover),
+        error = painterResource(id = R.drawable.img_cover),
         contentDescription = "মাজু ইলেকট্রিশিয়ানের কভার ব্যানার",
         contentScale = ContentScale.Crop,
         modifier = Modifier.fillMaxSize()
@@ -148,8 +150,10 @@ fun HeroSection(
           .clip(CircleShape)
           .background(NavyPrimary)
       ) {
-        Image(
-          painter = painterResource(id = R.drawable.img_profile),
+        AsyncImage(
+          model = PortfolioData.PROFILE_IMAGE_URL,
+          placeholder = painterResource(id = R.drawable.img_profile),
+          error = painterResource(id = R.drawable.img_profile),
           contentDescription = "মাজু ইলেকট্রিশিয়ানের প্রোফাইল ছবি",
           contentScale = ContentScale.Crop,
           modifier = Modifier.fillMaxSize()
